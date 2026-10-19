@@ -1,0 +1,19 @@
+{
+  "engine": {
+    "name": "<ENGINE_NAME>",
+    "start_script": "<PATH_TO_START_SCRIPT>",
+    "base_url": "<API_BASE_URL>"
+  },
+  "model": {
+    "name": "<MODEL_NAME>"
+  },
+  "benchmark": {
+    "concurrency": "<CONCURRENCY>",
+    "cases": [
+      "case_001",
+      "case_002",
+      "case_003"
+    ],
+    "repeat": "<REPEAT_COUNT>"
+  }
+}
