@@ -1,6 +1,6 @@
 
 from benchmark.config import load_config
-from benchmark.engien import start_engine, stop_engine
+from benchmark.engine import start_engine, stop_engine
 
 
 def run_benchmark(config):

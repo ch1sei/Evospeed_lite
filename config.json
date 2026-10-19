@@ -1,7 +1,7 @@
 {
   "engine": {
     "name": "sglang_sample",
-    "start_script": "./engien_scripts/engien_start.sample.sh",
+    "start_script": "./engine_scripts/engine_start.sample.sh",
     "stop_script": "",
     "base_url": "<API_BASE_URL>",
     "startup_timeout": 600
