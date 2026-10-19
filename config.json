@@ -1,19 +1,21 @@
 {
   "engine": {
-    "name": "<ENGINE_NAME>",
-    "start_script": "<PATH_TO_START_SCRIPT>",
-    "base_url": "<API_BASE_URL>"
+    "name": "sglang_sample",
+    "start_script": "./engien_scripts/engien_start.sample.sh",
+    "stop_script": "",
+    "base_url": "<API_BASE_URL>",
+    "startup_timeout": 600
   },
   "model": {
-    "name": "<MODEL_NAME>"
+    "name": "Qwen3.6-35B-A3B"
   },
   "benchmark": {
-    "concurrency": "<CONCURRENCY>",
+    "concurrency": "1",
     "cases": [
       "case_001",
       "case_002",
       "case_003"
     ],
-    "repeat": "<REPEAT_COUNT>"
+    "repeat": "3"
   }
 }
